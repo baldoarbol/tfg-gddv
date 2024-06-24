@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 
 class SMPLitexModel(ModelInterface):
     def __init__(self):
-        # Fonts and formats
+        # Fuentes y formatos
         self.input_text = None
         self.h1_font = tkFont.Font(family="Helvetica", size=28, weight="bold")
         self.h2_font = tkFont.Font(family="Helvetica", size=16, weight="bold")

@@ -51,7 +51,7 @@ def parse_model_file(filepath):
             if '=' in line:
                 key, value = line.split('=')
                 key = key.strip()
-                value = value.strip().strip('"')  # Remove potential double quotes
+                value = value.strip().strip('"')
                 model_data[key] = value
 
     return model_data
@@ -148,7 +148,6 @@ class AIM4D:
             "activebackground": self.button_bg_active_close_color,
             "activeforeground": self.button_fg_active_color,
             "bd": 0,
-            # "relief": "raised",
             "width": 20
         }
 
@@ -159,7 +158,6 @@ class AIM4D:
             "activebackground": self.button_bg_active_color,
             "activeforeground": self.button_fg_active_color,
             "bd": 0,
-            # "relief": "raised",
             "width": 12
         }
 
@@ -537,7 +535,6 @@ class AIM4D:
             self.set_status(text="No model loaded!", color="#b34b53")
 
     def handle_key_press(self, event):
-        # Limit the text in the Text widget to 5 lines
         if len(self.input_text.get("1.0", tk.END).split('\n')) > 5:
             if event.keysym in ("BackSpace", "Delete"):
                 return

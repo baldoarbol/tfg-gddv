@@ -14,7 +14,7 @@ class SMPLLMModel(ModelInterface):
         self.tokenizer = None
         self.ft_model = None
 
-        # Fonts and formats
+        # Fuentes y formatos
         self.h1_font = tkFont.Font(family="Helvetica", size=28, weight="bold")
         self.h2_font = tkFont.Font(family="Helvetica", size=16, weight="bold")
         self.h3_font = tkFont.Font(family="Helvetica", size=14, weight="bold")
