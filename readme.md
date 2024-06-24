@@ -27,7 +27,6 @@ charset-normalizer==3.3.2
 click==8.1.7
 contourpy==1.2.1
 cycler==0.12.1
-datasets==2.19.1
 diffusers==0.27.2
 dill==0.3.8
 distro==1.9.0
@@ -71,6 +70,7 @@ nvidia-cusparse-cu12==12.1.0.106
 nvidia-nccl-cu12==2.20.5
 nvidia-nvjitlink-cu12==12.4.127
 nvidia-nvtx-cu12==12.1.105
+openai==1.25.2
 packaging==24.0
 pandas==2.2.2
 peft==0.10.0
@@ -81,7 +81,13 @@ pyarrow==16.0.0
 pyarrow-hotfix==0.6
 pydantic==2.7.1
 pydantic_core==2.18.2
+Pygments==2.18.0
+PyOpenGL==3.1.0
 pyparsing==3.1.2
+PyQt5==5.15.10
+PyQt5-Qt5==5.15.2
+PyQt5-sip==12.13.0
+pyrender==0.1.45
 python-dateutil==2.9.0.post0
 python-engineio==4.9.0
 python-socketio==5.11.2
@@ -117,4 +123,5 @@ wsproto==1.2.0
 xxhash==3.4.1
 yarl==1.9.4
 zipp==3.18.1
+
 ```
