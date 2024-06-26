@@ -12,6 +12,8 @@ El programa Artificial Intelligence Manager For Developers (AIM4D) ha sido desar
 ## Lista de Dependencias
 Lista de librerías y dependencias del proyecto (ver archivo requirements_tfg_gddv.txt):
 ```
+SMPL-X para Python: https://smpl-x.is.tue.mpg.de/download.php
+
 accelerate==0.30.0
 aiohttp==3.9.5
 aiosignal==1.3.1
